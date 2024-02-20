@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const CartSchema =new mongoose.Schema({
     date:
         {
-            type:String,
+            type:Date,
             required:true
         },
     qty:{
